@@ -1,0 +1,358 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+
+}
+
+#header{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(7, 7, 88);
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    background-color: aliceblue;
+    object-fit: cover;
+    margin: 20px;
+    
+    
+}
+
+
+.text{
+    /* background-color: aqua; */
+    margin: 15px;
+    color: white;
+    
+}
+
+.text:hover{
+    color: red;
+}
+
+
+    
+.icon{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(192, 1, 1);
+}
+
+.icon:hover{
+    color: black;
+}
+
+
+
+
+#fake{
+
+    height: 10%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    
+     
+
+}
+
+
+
+#page1{
+    height: 90%;
+    width: 100%;
+    background-color: salmon;
+}
+
+#content{
+    width: 100%;
+    height: 90%;
+    background-color: wheat;
+    display: flex;
+}
+
+#box1{
+    height: 100%;
+    
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    margin: 1px;
+    
+}
+
+#box1 h1{
+ font-size: xxx-large;
+ margin: 35px;
+ font-weight: bolder;
+ color: rgb(199, 21, 21);
+ align-items: center;
+ display: flex;
+ animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+ animation-delay: 10ms;
+ stroke: black;
+ text-transform: uppercase;
+ transform: rotate(360deg);
+ /* animation: typing 2s steps(20) infinite alternate-reverse;
+ text-wrap: nowrap;
+ overflow: hidden; */
+}
+
+#box1 h1:hover{
+    color: blue;
+
+}
+
+
+#box1 p{
+    font-size: x-large;
+    margin: 20px;
+    font-weight: lighter;
+}
+#box1 p:hover{
+    color: rgb(12, 12, 116);
+}
+
+#box2{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    margin: 1px;
+    animation: scrollanimation 5s ease-in-out;
+    
+}
+/* 
+@keyframes scrollanimation{
+    opacity: 0;
+    scale: 0.4:;
+} */
+
+to {
+    opacity: 1;
+    scale:1;
+}
+
+
+
+
+
+#box2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+#heading{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(19, 7, 88);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* animation-play-state: running; */
+    font-weight: bold;
+    /* margin-right: auto; */
+    color: wheat;
+    
+}
+
+#heading:hover{
+    color: rgb(15, 243, 102);
+}
+
+#btns{
+    display: flex;
+    
+}
+
+
+
+
+
+
+#btn1{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(65, 4, 4);
+    width: 22%;
+    border: 2px black ;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+
+
+}
+
+#btn1:hover{
+    background-color: black;
+    color: red;
+}
+
+#btn2{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(65, 4, 4);
+    width: 22%;
+    border: 2px black ;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+
+
+
+
+
+
+
+
+#btn2:hover{
+    background-color: black;
+    color: red;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+
+}
+#page2{
+    height: 90%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#ourservices{
+    height: 10%;
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(216, 216, 219);
+    color: black;
+    align-items: center;
+
+}
+
+#ourservices p{
+    align-content: center;
+    color: rgb(22, 22, 211);
+}
+
+.service{
+   
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 5px;
+
+    
+
+    
+
+    }
+    .service:hover{
+        color: red;
+    }
+
+ #PAGE3{
+    height: 75%;
+    width: 100%;
+    background-color: rgb(237, 255, 237);
+ }
+
+ .GETINTOUCH{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(33, 4, 102);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* animation-play-state: running; */
+    font-weight: bold;
+    /* margin-right: auto; */
+    color: rgb(255, 255, 255);
+    font-size: large;
+    
+ }
+
+ #information{
+    width: 50%;
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+    
+    
+    
+
+
+
+
+ }
+
+ /* .information{
+    height: 60%;
+    width: 100%;
+    align-items: center;
+    font-size: large;
+    color: blue;
+ } */
+
+ #detail{
+    width: 50%;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    gap: 50%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    
+ }
+ #QUICKLINK{
+    margin-bottom: 10%;
+ }
+
+
+ #copyright{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* animation-play-state: running; */
+    font-weight: bold;
+    /* margin-right: auto; */
+    color: white;
+ }
